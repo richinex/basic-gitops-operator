@@ -21,7 +21,7 @@ func main() {
 	localPath := "tmp/"
 
 	// Path within the cloned repo containing manifests to apply.
-	pathToApply := "basic-gitops-operator-config"
+	pathToApply := "gitops-operator-config"
 
 	// Start an infinite loop for syncing the repo and applying manifests.
 	for {
